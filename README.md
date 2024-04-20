@@ -1,4 +1,4 @@
-# CatQuotes
+# CatQuote
 
 This project uses two APIs, the Cat API and the Quotes API by API Ninjas. Only the Quote API requires an API key, so go grab that for the full experience.
 
