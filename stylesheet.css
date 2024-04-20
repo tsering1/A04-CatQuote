@@ -1,0 +1,51 @@
+body{
+    background: pink
+}
+
+h1{
+    text-align: center;
+    color: rgb(206, 62, 148);
+    font: 40px Didot;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    color: rgb(206, 62, 148);
+    font: 17px Didot;
+    width: 700px;
+    margin: auto;
+}
+
+img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.button {
+    border: none;
+    background-color: rgb(206, 62, 148);
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    display: block;
+    font: 15px Didot;
+    margin: 20px auto;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+.button:hover {
+    background-color: white;
+    color:rgb(206, 62, 148);
+}
+
+#cat-image {
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

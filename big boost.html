@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+<title>CatQuote</title>
+<link rel="stylesheet" type="text/css" href="stylesheet.css">
+</head>
+<body>
+
+<h1>CatQuote</h1>
+
+<p>Keep clicking 'till it feels right.</p>
+
+<audio id = "meow" src = "meow.mp3" preload="auto"></audio>
+<audio id = "sparkle" src = "sparkle.mp3" preload="auto"></audio>
+
+<div>
+    <button id="cat-button" class="button" onclick="document.getElementById('meow').play();"> Cats! </button>
+    <br>
+    <img id = "cat-image">
+</div>
+
+<div>
+    <br>
+    <p id="quote"></p>
+    <p id="author"></p>
+    <button id="quote-button" class="button" onclick="document.getElementById('sparkle').play();"> Quotes! </button>
+</div>
+
+<script src="cats.js"></script>
+<script src="quotes.js"></script>
+
+</body> 
+</html>
